@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">level4-example</string>
+    <string name="app_name">level5-example</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
