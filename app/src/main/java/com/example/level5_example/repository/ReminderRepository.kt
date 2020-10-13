@@ -1,6 +1,9 @@
-package com.example.level5_example
+package com.example.level5_example.repository
 
 import android.content.Context
+import com.example.level5_example.database.ReminderRoomDatabase
+import com.example.level5_example.dao.ReminderDao
+import com.example.level5_example.model.Reminder
 
 public class ReminderRepository(context: Context) {
 

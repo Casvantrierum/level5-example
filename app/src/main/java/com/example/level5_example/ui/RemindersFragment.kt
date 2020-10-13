@@ -1,4 +1,4 @@
-package com.example.level5_example
+package com.example.level5_example.ui
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -9,6 +9,9 @@ import androidx.fragment.app.setFragmentResultListener
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.level5_example.R
+import com.example.level5_example.model.Reminder
+import com.example.level5_example.repository.ReminderRepository
 import kotlinx.android.synthetic.main.fragment_reminder.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
