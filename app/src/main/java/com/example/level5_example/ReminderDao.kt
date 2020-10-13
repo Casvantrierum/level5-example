@@ -1,6 +1,7 @@
-package com.example.level4_example
+package com.example.level5_example
 
 import androidx.room.*
+import com.example.level5_example.Reminder
 
 @Dao
 interface ReminderDao {
